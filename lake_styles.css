@@ -1,0 +1,101 @@
+﻿/* 
+  COLORS
+  background-color: #183642;
+  background-color: #7ba8c0;
+  background-color: #ddd8c4;
+  background-color: #00a676;
+  background-color: #7d8cc4;
+  background-color: #6d4c3d;
+ */
+
+body {
+  background-color: #7ba8c0;
+}
+
+nav {
+  background-color: #183642;
+  padding: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Left col*/
+body > section#leftcol {
+  background-color: #ddd8c4;
+  padding: 10px;
+
+  padding-right: 0;
+}
+
+#leftcol > p {
+  padding: 0 20px;
+}
+
+#leftcol > img,
+#leftcol > h1 {
+  padding-left: 10px;
+}
+
+#notes {
+  background-color: #00a676;
+}
+
+#notes > ul {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+#events {
+  background-color: #7d8cc4;
+}
+
+#notes > h2,
+#events > h2 {
+  margin-top: 0;
+}
+
+#notes,
+#events {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/*Right col*/
+#rightcol {
+  color: #dad8c4;
+  background-color: #6d4c3d;
+}
+
+#rightcol > ul {
+  margin: 0 55px;
+  padding: 0;
+}
+
+#rightcol > h2 {
+  margin: 10px 35px;
+}
+
+#rightcol > h2:first-child {
+  margin-top: 20px;
+}
+
+#leftcol,
+#rightcol {
+  height: 1000px;
+}
+
+/*footer*/
+footer {
+  background-color: #183642;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+}
